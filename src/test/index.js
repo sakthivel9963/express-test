@@ -12,3 +12,5 @@ expect(title('Welcome All!!!')).to.be.a('string');
 expect(title('a')).to.equal('A');
 expect(title('welcome')).to.equal('Welcome');
 expect(title('welcome all!!!')).to.equal('Welcome All!!!');
+
+exports.title = title;
